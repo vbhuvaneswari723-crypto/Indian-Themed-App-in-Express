@@ -6,6 +6,7 @@ Here's a basic Express.js backend structure to achieve this: Project Setup.
 Initialize a new Node.js project and install Express.js.
 
 Explanation:
+
 express: The core Express.js library is imported.
 app = express(): An instance of the Express application is created.
 app.use(express.json()): This middleware enables the server to parse JSON data sent in request bodies, which is common for API interactions.
